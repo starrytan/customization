@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>编辑工作区</title>
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body>
+    <button onclick="save()">
+      保存
+    </button>
+  </body>
+  <script src="js/jquery1.7.2.js"></script>
+  <script src="js/Tdrag.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    /**
+width 工作面板宽度
+height 工作面板高度
+num 背景网格分割份数（以高为基础）
+target 编辑区域的父级元素，id选择器，传入body自动选择body
+ */
+    Editworkspace.option(1200, 800, 50, "body");
+    save = function() {
+      console.log(Editworkspace.getreslut());
+    };
+  </script>
+</html>
