@@ -54,7 +54,6 @@ var arrdata = [];
 //渲染方法
 function rendering(){
   Editworkspace.reslut=arrdata
-  console.log('渲染源数据', arrdata);
   //清空节点
   main.innerHTML = "";
   if (arrdata.length){

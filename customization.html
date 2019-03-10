@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/custom.css" />
   </head>
   <body>
-    <button onclick="save()">
+    <button style="display:block;margin:0 auto" onclick="save()">
       保存
     </button>
   </body>
@@ -24,7 +24,7 @@ target 编辑区域的父级元素，id选择器，传入body自动选择body
  */
     Editworkspace.option(1200, 800, 50, "body");
     save = function() {
-      console.log(Editworkspace.getreslut());
+      console.log('渲染数据:',Editworkspace.getreslut());
     };
   </script>
 </html>
