@@ -4,9 +4,9 @@ div分割器插件
 
 **原理框图:**
 
-![](C:\Users\Starry\Desktop\QQ截图20190311060239.jpg)
+![](https://github.com/starrytan/customization/blob/master/pic/1.jpg)
 
-![](C:\Users\Starry\Desktop\GIF.gif)
+![](https://github.com/starrytan/customization/blob/master/pic/GIF.gif)
 
 
 
